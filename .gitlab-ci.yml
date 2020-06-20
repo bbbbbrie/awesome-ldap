@@ -4,6 +4,6 @@ pages:
   script:
   - mkdir public
   - pandoc README.md -o public/index.html
-    artifacts:
+  artifacts:
     paths:
     - public
