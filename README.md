@@ -1,5 +1,7 @@
 # Awesome LDAP
 
+You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/).
+
 ## Implementations
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
