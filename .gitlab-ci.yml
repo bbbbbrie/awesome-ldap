@@ -1,5 +1,13 @@
 # image: "pandoc/core"
 
+# Run a Markdown linter
+markmedown:
+  stage: test
+  image: registry.gitlab.com/06kellyjac/docker_markdownlint-cli:0.23.0-alpine
+  script:
+    - markdownlint .
+
+# Convert the README to a PDF.
 icanhazpdf:
   image: "auchida/markdown-pdf"
   stage: build
@@ -9,13 +17,25 @@ icanhazpdf:
   artifacts:
     paths:
     - public
+  only:
+    changes:
+      - README.md
+      - .gitlab-ci.yml
 
+# Use pandoc to convert the README to HTML.
 pandopages:
   image: "pandoc/core"
   stage: deploy
+  needs: ["icanhazpdf","markmedown"]
+  # CSS: https://benjam.info/panam/styling.css
   script:
   - mkdir -p public
-  - pandoc README.md -o public/index.html
+  - cp web/styling.css public/
+  - pandoc  --css=public/styling.css      -s -f markdown+smart     --toc       --metadata pagetitle="awesome ldap | GitLab.com/brie"                  --to=html5          README.md      -o public/output.html
   artifacts:
     paths:
     - public
+  only:
+    changes:
+      - README.md
+      - .gitlab-ci.yml
