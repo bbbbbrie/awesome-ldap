@@ -1,6 +1,9 @@
-image: "pandoc/core"
+# image: "pandoc/core"
 
-pages:
+
+
+pandopages:
+  image: "pandoc/core"
   stage: deploy
   script:
   - mkdir public
