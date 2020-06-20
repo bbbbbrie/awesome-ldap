@@ -45,6 +45,12 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
 ## RFCs
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
 
+## Terminology
+These are some of the best available glossaries and other resources for learning more about LDAP terminology.
+
+  - [Glossary of LDAP and Directory Terminology](https://ldapwiki.com/wiki/Glossary%20Of%20LDAP%20And%20Directory%20Terminology)
+  - [LDAP - Object Classes and Attributes](https://www.zytrax.com/books/ldap/ape/)
+
 ## Other Awesome Lists
   - [LDAP section of awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin#ldap)
 
