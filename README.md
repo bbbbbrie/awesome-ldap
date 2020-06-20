@@ -1,7 +1,7 @@
 # Awesome LDAP
 > Useful resources for learning more about and using LDAP. 
 
-You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/).
+You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/). You can contribute to this page at [https://gitlab.com/brie/awesome-ldap](https://gitlab.com/brie/awesome-ldap).
 
 ## Implementations
   - [OpenLDAP](https://www.openldap.org/)
@@ -12,6 +12,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
 
 ## :whale: Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
+  - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
 
 ## LDAP Clients, Tools and Utilities
   - [Apache Directory Studio](https://directory.apache.org/studio/)
