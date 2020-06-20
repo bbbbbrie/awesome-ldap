@@ -46,6 +46,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Hacking into an LDAP or Active Directory service](https://pub.nethence.com/server/active-directory) - "note: this isn't pentesting but just gentle digging"
   - [2020 LDAP channel binding and LDAP signing requirements for Windows](https://support.microsoft.com/en-us/help/4520412/2020-ldap-channel-binding-and-ldap-signing-requirements-for-windows)
   - [Interacting with an LDAP server using Ruby](https://www.tutorialspoint.com/ruby/ruby_ldap.htm) - This is a little dated but would be great in conjunction with the containers noted above.
+  - [Full Ruby LDAP docs](http://ruby-ldap.sourceforge.net/rdoc/)
 
 ## LDIF 
 LDIF is the LDAP Data Interchange Format. LDIF files are flat text files. 
