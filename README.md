@@ -26,7 +26,8 @@ My objective is to make this a useful resource for people with varying levels of
   - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
 
-## Security
+## LDAP for Pentesting
+  - [Dump LAPS passwords with ldapsearch](https://room362.com/post/2017/dump-laps-passwords-with-ldapsearch/)
   - [LDAP Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
   - [LDAP Injection & Blind LDAP Injection in Web Applications](https://www.blackhat.com/presentations/bh-europe-08/Alonso-Parada/Whitepaper/bh-eu-08-alonso-parada-WP.pdf)
   - [Testing for LDAP Injection (OTG-INPVAL-006)](https://kennel209.gitbooks.io/owasp-testing-guide-v4/en/web_application_security_testing/testing_for_ldap_injection_otg-inpval-006.html)
@@ -34,7 +35,6 @@ My objective is to make this a useful resource for people with varying levels of
 ### NSE Scripts
   - [ldap-search](https://nmap.org/nsedoc/scripts/ldap-search.html)
   - [ldap-rootdse](https://nmap.org/nsedoc/scripts/ldap-rootdse.html)
-
 #### Using NSE Scripts
   - [Searching LDAP using Nmap's ldap-search.nse script](https://fadedlab.wordpress.com/2017/07/25/searching-ldap-using-nmaps-ldap-search-nse/) - Several practical applications
 
