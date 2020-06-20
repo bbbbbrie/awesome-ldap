@@ -1,0 +1,6 @@
+image: pandoc/core:latest
+
+pages:
+  script:
+  - mkdir public
+  - pandoc README.md -o public/index.html
