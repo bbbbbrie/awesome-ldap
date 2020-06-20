@@ -1,6 +1,7 @@
 image: "pandoc/core"
 
 pages:
+  stage: deploy
   script:
   - mkdir public
   - pandoc README.md -o public/index.html
