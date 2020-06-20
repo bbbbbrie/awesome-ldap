@@ -1,20 +1,24 @@
 # Awesome LDAP
 > Useful resources for learning more about and using LDAP. 
 
-You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/).
+You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/). You can contribute to this page at [https://gitlab.com/brie/awesome-ldap](https://gitlab.com/brie/awesome-ldap).
 
 ## Implementations
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
+  - [ReOpenLDAP](https://github.com/erthink/ReOpenLDAP) - A production-ready replacement for OpenLDAP
 
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
 
 ## :whale: Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
+  - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
 
 ## LDAP Clients, Tools and Utilities
   - [Apache Directory Studio](https://directory.apache.org/studio/)
+  - [Client APIs](https://ldap.com/client-apis/) - List of LDAP libraries for languages from Ada to Swift on `ldap.com`
+  - [lb - LDAP benchmarking tool](https://github.com/hamano/lb)
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
 
@@ -40,6 +44,12 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
 
 ## RFCs
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
+
+## Terminology
+These are some of the best available glossaries and other resources for learning more about LDAP terminology.
+
+  - [Glossary of LDAP and Directory Terminology](https://ldapwiki.com/wiki/Glossary%20Of%20LDAP%20And%20Directory%20Terminology)
+  - [LDAP - Object Classes and Attributes](https://www.zytrax.com/books/ldap/ape/)
 
 ## Other Awesome Lists
   - [LDAP section of awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin#ldap)
