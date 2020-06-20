@@ -1,9 +1,20 @@
-image: "pandoc/core"
+# image: "pandoc/core"
 
-pages:
+icanhazpdf:
+  image: "auchida/markdown-pdf"
+  stage: build
+  script:
+  - mkdir -p public
+  - markdown-pdf -o public/readme.pdf README.md
+  artifacts:
+    paths:
+    - public
+
+pandopages:
+  image: "pandoc/core"
   stage: deploy
   script:
-  - mkdir public
+  - mkdir -p public
   - pandoc README.md -o public/index.html
   artifacts:
     paths:
