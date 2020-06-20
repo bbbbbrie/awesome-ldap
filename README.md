@@ -26,12 +26,14 @@ My objective is to make this a useful resource for people with varying levels of
   - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
 
-## LDAP for Pentesting
+## LDAP + Pentesting
   - [Dump LAPS passwords with ldapsearch](https://room362.com/post/2017/dump-laps-passwords-with-ldapsearch/)
+  - [Fun with LDAP, Kerberos (and MSRPC) in AD Environments](https://speakerdeck.com/ropnop/fun-with-ldap-kerberos-and-msrpc-in-ad-environments?slide=17)
   - [LDAP Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
   - [LDAP Injection & Blind LDAP Injection in Web Applications](https://www.blackhat.com/presentations/bh-europe-08/Alonso-Parada/Whitepaper/bh-eu-08-alonso-parada-WP.pdf)
   - [Testing for LDAP Injection (OTG-INPVAL-006)](https://kennel209.gitbooks.io/owasp-testing-guide-v4/en/web_application_security_testing/testing_for_ldap_injection_otg-inpval-006.html)
   - [Understanding and Exploiting Web-based LDAP](https://www.sans.org/blog/understanding-and-exploiting-web-based-ldap/)
+  - [windapsearch](https://github.com/ropnop/windapsearch) - A tool that aims to automate some of the most useful LDAP queries a pentester would want to perform in an AD environment.
 ### NSE Scripts
   - [ldap-search](https://nmap.org/nsedoc/scripts/ldap-search.html)
   - [ldap-rootdse](https://nmap.org/nsedoc/scripts/ldap-rootdse.html)
