@@ -15,6 +15,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
 
 ## LDAP Clients, Tools and Utilities
   - [Apache Directory Studio](https://directory.apache.org/studio/)
+  - [Client APIs](https://ldap.com/client-apis/) - List of LDAP libraries for languages from Ada to Swift on `ldap.com`
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
 
