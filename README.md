@@ -6,6 +6,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
 ## Implementations
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
+  - [ReOpenLDAP](https://github.com/erthink/ReOpenLDAP) - A production-ready replacement for OpenLDAP
 
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
