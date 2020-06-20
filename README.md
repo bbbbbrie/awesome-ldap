@@ -1,4 +1,5 @@
 # Awesome LDAP
+> Useful resources for learning more about and using LDAP. 
 
 You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/).
 
