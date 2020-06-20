@@ -1,6 +1,9 @@
-image: pandoc/core:latest
+image: "pandoc/core"
 
 pages:
   script:
   - mkdir public
   - pandoc README.md -o public/index.html
+    artifacts:
+    paths:
+    - public
