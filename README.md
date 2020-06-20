@@ -3,6 +3,8 @@
 
 You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/). You can contribute to this page at [https://gitlab.com/brie/awesome-ldap](https://gitlab.com/brie/awesome-ldap).
 
+My objective is to make this a useful resource for people with varying levels of experience with LDAP. Do not hesitate to suggest good quality introductory material. 
+
 ## Implementations
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
@@ -26,6 +28,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
   - [LDAP Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
   - [LDAP Injection & Blind LDAP Injection in Web Applications](https://www.blackhat.com/presentations/bh-europe-08/Alonso-Parada/Whitepaper/bh-eu-08-alonso-parada-WP.pdf)
   - [Testing for LDAP Injection (OTG-INPVAL-006)](https://kennel209.gitbooks.io/owasp-testing-guide-v4/en/web_application_security_testing/testing_for_ldap_injection_otg-inpval-006.html)
+  - [Understanding and Exploiting Web-based LDAP](https://www.sans.org/blog/understanding-and-exploiting-web-based-ldap/)
 ### NSE Scripts
   - [ldap-search](https://nmap.org/nsedoc/scripts/ldap-search.html)
   - [ldap-rootdse](https://nmap.org/nsedoc/scripts/ldap-rootdse.html)
@@ -47,8 +50,9 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
   - [LDIFDE - Export / Import data from Active Directory - LDIFDE commands ](https://support.microsoft.com/en-us/help/555636)
 
 ## RFCs
-  - [RFC 1960](https://www.ietf.org/rfc/rfc1960.txt) - A String Representation of LDAP Search Filters
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
+  - [RFC 4510](https://tools.ietf.org/html/rfc4510) -  Lightweight Directory Access Protocol (LDAP): Technical Specification Road Map
+  - [RFC 4515](https://tools.ietf.org/html/rfc4515) - Lightweight Directory Access Protocol (LDAP): String Representation of Search Filters
 
 ## Terminology
 These are some of the best available glossaries and other resources for learning more about LDAP terminology.
@@ -66,7 +70,7 @@ These are some of the best available glossaries and other resources for learning
   - [Videos from LDAPCon 2019](https://www.youtube.com/channel/UCbozYVV-XTqzx-eTSI4I84A/videos)
 
 ## Support Channels
-  - [openldap.org mailing lists](https://lists.openldap.org/hyperkitty/)
+  - [openldap.org mailing lists](https://lists.openldap.org/hyperkitty/) - If you are reading this, you may wish to subscribe to `openldap-technical`. 
 
 ## Miscellaneous
   - [/r/ldap](https://reddit.com/r/ldap) - The LDAP subreddit
