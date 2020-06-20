@@ -6,6 +6,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
 My objective is to make this a useful resource for people with varying levels of experience with LDAP. Do not hesitate to suggest good quality introductory material. 
 
 ## Implementations
+  - [OpenDJ](https://www.openidentityplatform.org/opendj)
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
   - [ReOpenLDAP](https://github.com/erthink/ReOpenLDAP) - A production-ready replacement for OpenLDAP
@@ -22,6 +23,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Client APIs](https://ldap.com/client-apis/) - List of LDAP libraries for languages from Ada to Swift on `ldap.com`
   - [lb - LDAP benchmarking tool](https://github.com/hamano/lb)
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
+  - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
 
 ## Security
