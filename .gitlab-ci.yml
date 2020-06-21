@@ -39,3 +39,11 @@ pandopages:
     changes:
       - README.md
       - .gitlab-ci.yml
+
+# Deploy to droplet
+droplets:
+  environment: ldap.brie.ninja
+  needs: ["icanhazpdf","markmedown"]
+  stage: deploy
+  script:
+  - echo "Hello, world."
