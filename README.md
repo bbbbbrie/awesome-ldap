@@ -13,6 +13,7 @@ My objective is to make this a useful resource for people with varying levels of
 
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
+  - [Gluu](https://www.gluu.org/)
 
 ## :whale: Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
