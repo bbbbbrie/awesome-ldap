@@ -23,7 +23,7 @@ icanhazpdf:
       - .gitlab-ci.yml
 
 # Use pandoc to convert the README to HTML.
-pandopages:
+pages:
   image: "pandoc/core"
   stage: deploy
   needs: ["icanhazpdf","markmedown"]
