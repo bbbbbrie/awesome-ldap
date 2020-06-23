@@ -76,6 +76,8 @@ These are some of the best available glossaries and other resources for learning
 
 ## Books
   - [Understanding LDAP Design and Implementation](https://www.redbooks.ibm.com/redbooks/pdfs/sg244986.pdf) - Free PDF from IBM
+
+
 ## Conferences and Education
   - [LDAPCon](https://ldapcon.org/2019/)
   - [Videos from LDAPCon 2019](https://www.youtube.com/channel/UCbozYVV-XTqzx-eTSI4I84A/videos)
