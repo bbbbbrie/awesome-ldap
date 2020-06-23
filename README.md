@@ -24,6 +24,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Apache Directory Studio](https://directory.apache.org/studio/)
   - [Client APIs](https://ldap.com/client-apis/) - List of LDAP libraries for languages from Ada to Swift on `ldap.com`
   - [lb - LDAP benchmarking tool](https://github.com/hamano/lb)
+  - [ldapfs](https://github.com/mgale/ldapfs) - LDAP browsing via FUSE filesystem mount
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
   - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
