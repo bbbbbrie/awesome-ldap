@@ -5,6 +5,7 @@ You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.g
 
 My objective is to make this a useful resource for people with varying levels of experience with LDAP. Do not hesitate to suggest good quality introductory material. 
 
+
 ## Implementations
   - [OpenDJ](https://www.openidentityplatform.org/opendj)
   - [OpenLDAP](https://www.openldap.org/)
@@ -60,6 +61,12 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
   - [RFC 4510](https://tools.ietf.org/html/rfc4510) -  Lightweight Directory Access Protocol (LDAP): Technical Specification Road Map
   - [RFC 4515](https://tools.ietf.org/html/rfc4515) - Lightweight Directory Access Protocol (LDAP): String Representation of Search Filters
+
+## Terminology
+These are some of the best available glossaries and other resources for learning more about LDAP terminology.
+
+  - [Glossary of LDAP and Directory Terminology](https://ldapwiki.com/wiki/Glossary%20Of%20LDAP%20And%20Directory%20Terminology)
+  - [LDAP - Object Classes and Attributes](https://www.zytrax.com/books/ldap/ape/)
 
 ## Terminology
 These are some of the best available glossaries and other resources for learning more about LDAP terminology.
