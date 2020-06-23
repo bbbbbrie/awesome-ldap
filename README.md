@@ -73,6 +73,7 @@ These are some of the best available glossaries and other resources for learning
 
 ## Other Awesome Lists
   - [LDAP section of awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin#ldap)
+  - [LDAP section of awesome security hardening](https://github.com/decalage2/awesome-security-hardening#ldap)
 
 ## Books
   - [Understanding LDAP Design and Implementation](https://www.redbooks.ibm.com/redbooks/pdfs/sg244986.pdf) - Free PDF from IBM
