@@ -17,7 +17,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Gluu](https://www.gluu.org/)
   - [Keycloak](https://www.keycloak.org/) - Open Source Identity and Access Management
 
-## :Containers
+## Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
   - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
 
