@@ -15,8 +15,9 @@ My objective is to make this a useful resource for people with varying levels of
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
   - [Gluu](https://www.gluu.org/)
+  - [Keycloak](https://www.keycloak.org/) - Open Source Identity and Access Management
 
-## :whale: Containers
+## :Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
   - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
 
@@ -24,6 +25,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Apache Directory Studio](https://directory.apache.org/studio/)
   - [Client APIs](https://ldap.com/client-apis/) - List of LDAP libraries for languages from Ada to Swift on `ldap.com`
   - [lb - LDAP benchmarking tool](https://github.com/hamano/lb)
+  - [ldapfs](https://github.com/mgale/ldapfs) - LDAP browsing via FUSE filesystem mount
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
   - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
@@ -71,9 +73,12 @@ These are some of the best available glossaries and other resources for learning
 
 ## Other Awesome Lists
   - [LDAP section of awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin#ldap)
+  - [LDAP section of awesome security hardening](https://github.com/decalage2/awesome-security-hardening#ldap)
 
 ## Books
   - [Understanding LDAP Design and Implementation](https://www.redbooks.ibm.com/redbooks/pdfs/sg244986.pdf) - Free PDF from IBM
+
+
 ## Conferences and Education
   - [LDAPCon](https://ldapcon.org/2019/)
   - [Videos from LDAPCon 2019](https://www.youtube.com/channel/UCbozYVV-XTqzx-eTSI4I84A/videos)
