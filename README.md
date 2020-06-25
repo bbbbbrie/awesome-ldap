@@ -38,9 +38,11 @@ My objective is to make this a useful resource for people with varying levels of
   - [Testing for LDAP Injection (OTG-INPVAL-006)](https://kennel209.gitbooks.io/owasp-testing-guide-v4/en/web_application_security_testing/testing_for_ldap_injection_otg-inpval-006.html)
   - [Understanding and Exploiting Web-based LDAP](https://www.sans.org/blog/understanding-and-exploiting-web-based-ldap/)
   - [windapsearch](https://github.com/ropnop/windapsearch) - A tool that aims to automate some of the most useful LDAP queries a pentester would want to perform in an AD environment.
+
 ### NSE Scripts
   - [ldap-search](https://nmap.org/nsedoc/scripts/ldap-search.html)
   - [ldap-rootdse](https://nmap.org/nsedoc/scripts/ldap-rootdse.html)
+
 #### Using NSE Scripts
   - [Searching LDAP using Nmap's ldap-search.nse script](https://fadedlab.wordpress.com/2017/07/25/searching-ldap-using-nmaps-ldap-search-nse/) - Several practical applications
 
