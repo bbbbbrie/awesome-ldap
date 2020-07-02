@@ -1,5 +1,11 @@
 # image: "pandoc/core"
 
+# Print some info about the environment
+helloworld:
+  stage: test
+  script:
+    - echo $CI_JOB_NAME
+
 # Run a Markdown linter
 markmedown:
   stage: test
@@ -21,6 +27,14 @@ icanhazpdf:
     changes:
       - README.md
       - .gitlab-ci.yml
+
+# Super Simple Code Coverage
+covermycode:
+  script:
+    - sh cover-the-code.sh
+  coverage: '/Code coverage: \d+\.\d+/'
+
+
 
 # Use pandoc to convert the README to HTML.
 pages:
