@@ -60,6 +60,7 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
   - [dbgen.pl](https://linux.die.net/man/1/dbgen.pl) - Perl
   - [LDIF Parser and Generator](https://www.python-ldap.org/en/latest/reference/ldif.html) - Python 
   - [LDIFDE - Export / Import data from Active Directory - LDIFDE commands ](https://support.microsoft.com/en-us/help/555636)
+  - [schema2ldif: Tool for converting OpenLDAP-style schemas to the LDIF format](https://gitlab.fusiondirectory.org/fusiondirectory/schema2ldif) - Perl
 
 ## RFCs
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
