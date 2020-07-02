@@ -28,12 +28,28 @@ icanhazpdf:
       - README.md
       - .gitlab-ci.yml
 
+
+# Use pandoc to convert the README Markdown to HTMl with a test CSS file.
+pages:
+  image: "pandoc/core"
+  stage: deploy
+  needs: ["icanhazpdf","markmedown"]
+  # CSS: https://benjam.info/panam/styling.css
+  script:
+  - mkdir -p public
+  - cp web/styling.css public/
+  - pandoc  --css=test.css      -s -f markdown+smart     --toc       --metadata pagetitle="[TEST] awesome ldap | GitLab.com/brie"                  --to=html5          README.md      -o public/index.html
+  artifacts:
+    paths:
+    - public
+  only:
+    - test-css
+
 # Super Simple Code Coverage
 covermycode:
   script:
     - sh cover-the-code.sh
   coverage: '/Code coverage: \d+\.\d+/'
-
 
 
 # Use pandoc to convert the README to HTML.
