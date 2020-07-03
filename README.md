@@ -1,7 +1,11 @@
 # Awesome LDAP
 > Useful resources for learning more about and using LDAP whether you are a developer, pentester, network defender or something else cool! 
 
-You can visit this page at [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/). You can contribute to this page at [https://gitlab.com/brie/awesome-ldap](https://gitlab.com/brie/awesome-ldap).
+[![pipeline status](https://gitlab.com/brie/awesome-ldap/badges/main/pipeline.svg)](https://gitlab.com/brie/awesome-ldap/-/commits/main) 
+
+  * View: [https://brie.gitlab.io/awesome-ldap/](https://brie.gitlab.io/awesome-ldap/)
+
+  * Contribute: [https://gitlab.com/brie/awesome-ldap](https://gitlab.com/brie/awesome-ldap)
 
 My objective is to make this a useful resource for people with varying levels of experience with LDAP. Do not hesitate to suggest good quality introductory material. 
 
