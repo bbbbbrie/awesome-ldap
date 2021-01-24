@@ -1,7 +1,7 @@
 # image: "pandoc/core"
 
 # Print some info about the environment
-helloworld:
+.helloworld:
   stage: test
   script:
     - echo $CI_JOB_NAME
@@ -38,19 +38,12 @@ pages:
   script:
   - mkdir -p public
   - cp web/styling.css public/
-  - pandoc  --css=test.css      -s -f markdown+smart     --toc       --metadata pagetitle="[TEST] awesome ldap | GitLab.com/brie"                  --to=html5          README.md      -o public/index.html
+  - pandoc  --css=test.css -s -f markdown+smart --toc --metadata pagetitle="awesome ldap"                  --to=html5          README.md      -o public/index.html
   artifacts:
     paths:
     - public
   only:
     - test-css
-
-# Super Simple Code Coverage
-covermycode:
-  script:
-    - sh cover-the-code.sh
-  coverage: '/Code coverage: \d+\.\d+/'
-
 
 # Use pandoc to convert the README to HTML.
 pages:
@@ -61,7 +54,7 @@ pages:
   script:
   - mkdir -p public
   - cp web/styling.css public/
-  - pandoc  --css=styling.css      -s -f markdown+smart     --toc       --metadata pagetitle="awesome ldap | GitLab.com/brie"                  --to=html5          README.md      -o public/index.html
+  - pandoc --css=styling.css -s -f markdown+smart --toc --metadata pagetitle="awesome ldap | GitLab.com/brie" --to=html5 README.md  -o public/index.html
   artifacts:
     paths:
     - public
@@ -69,15 +62,3 @@ pages:
     changes:
       - README.md
       - .gitlab-ci.yml
-
-# Deploy to droplet
-droplets:
-  environment: ldap.brie.ninja
-  needs: ["icanhazpdf","markmedown"]
-  stage: deploy
-  when: manual
-  script:
-  - echo "Hello, world."
-  only:
-    - development
-    - main
