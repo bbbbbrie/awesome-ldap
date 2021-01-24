@@ -17,7 +17,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [Gluu](https://www.gluu.org/)
   - [Keycloak](https://www.keycloak.org/) - Open Source Identity and Access Management
 
-## :Containers
+## Containers
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
   - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
 
@@ -38,9 +38,11 @@ My objective is to make this a useful resource for people with varying levels of
   - [Testing for LDAP Injection (OTG-INPVAL-006)](https://kennel209.gitbooks.io/owasp-testing-guide-v4/en/web_application_security_testing/testing_for_ldap_injection_otg-inpval-006.html)
   - [Understanding and Exploiting Web-based LDAP](https://www.sans.org/blog/understanding-and-exploiting-web-based-ldap/)
   - [windapsearch](https://github.com/ropnop/windapsearch) - A tool that aims to automate some of the most useful LDAP queries a pentester would want to perform in an AD environment.
+
 ### NSE Scripts
   - [ldap-search](https://nmap.org/nsedoc/scripts/ldap-search.html)
   - [ldap-rootdse](https://nmap.org/nsedoc/scripts/ldap-rootdse.html)
+
 #### Using NSE Scripts
   - [Searching LDAP using Nmap's ldap-search.nse script](https://fadedlab.wordpress.com/2017/07/25/searching-ldap-using-nmaps-ldap-search-nse/) - Several practical applications
 
@@ -58,6 +60,7 @@ LDIF is the LDAP Data Interchange Format. LDIF files are flat text files.
   - [dbgen.pl](https://linux.die.net/man/1/dbgen.pl) - Perl
   - [LDIF Parser and Generator](https://www.python-ldap.org/en/latest/reference/ldif.html) - Python 
   - [LDIFDE - Export / Import data from Active Directory - LDIFDE commands ](https://support.microsoft.com/en-us/help/555636)
+  - [schema2ldif: Tool for converting OpenLDAP-style schemas to the LDIF format](https://gitlab.fusiondirectory.org/fusiondirectory/schema2ldif) - Perl
 
 ## RFCs
   - [RFC 2849](https://tools.ietf.org/html/rfc2849) - The LDAP Data Interchange Format (LDIF) - Technical Specification
