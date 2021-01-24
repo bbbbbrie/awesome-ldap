@@ -1,11 +1,5 @@
 # image: "pandoc/core"
 
-# Print some info about the environment
-.helloworld:
-  stage: test
-  script:
-    - echo $CI_JOB_NAME
-
 # Run a Markdown linter
 markmedown:
   stage: test
