@@ -9,13 +9,13 @@
 
 My objective is to make this a useful resource for people with varying levels of experience with LDAP. Do not hesitate to suggest good quality introductory material. 
 
-
 ## Implementations
   - [OpenDJ](https://www.openidentityplatform.org/opendj)
   - [OpenLDAP](https://www.openldap.org/)
   - [389 Directory](https://directory.fedoraproject.org/)
   - [ReOpenLDAP](https://github.com/erthink/ReOpenLDAP) - A production-ready replacement for OpenLDAP
 
+## Self-Hosted LDAP
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
   - [Gluu](https://www.gluu.org/)
@@ -25,6 +25,14 @@ My objective is to make this a useful resource for people with varying levels of
   - [osixia/openldap](https://hub.docker.com/r/osixia/openldap/) - One of the most recommended OpenLDAP containers
   - [osixia/phpldapadmin](https://hub.docker.com/r/osixia/phpldapadmin/) - A great companion to the container above! This [guide](https://scytalelabs.com/setup-and-configure-openldap-using-docker-image-on-ubuntu-16-04/) walks you through configuring them together.
   - [LDAP in containers](https://therubyist.org/2020/04/03/ldap-in-containers/) blog post from `https://therubyist.org`. 
+
+## Hosted LDAP/LDAP in the Cloud
+
+  - [Azure Active Directory]()
+  - [JumpCloud]()
+  - Google Cloud supports LDAP with [Cloud Identity](https://cloud.google.com/blog/products/identity-security/cloud-identity-now-provides-access-to-traditional-apps-with-secure-ldap) and G Suite 
+    - [Secure LDAP Service](https://support.google.com/cloudidentity/answer/9048516?hl=en)
+  - LogonBox    
 
 ## LDAP Clients, Tools and Utilities
   - [Apache Directory Studio](https://directory.apache.org/studio/)
@@ -98,3 +106,7 @@ These are some of the best available glossaries and other resources for learning
 ## Miscellaneous
   - [/r/ldap](https://reddit.com/r/ldap) - The LDAP subreddit
   - [Public LDAP Servers](https://ldapwiki.com/wiki/Public%20LDAP%20Servers)
+
+## Troubleshooting
+
+  - https://docs.jamf.com/technical-articles/LDAP_Server_Connections_in_Jamf_Pro.html?hl=ldap
