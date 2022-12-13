@@ -55,6 +55,7 @@ My objective is to make this a useful resource for people with varying levels of
   - [LDAP Tool Box project](https://ltb-project.org/doku.php)
   - [OpenLDAP Helper Scripts](https://www.port389.org/docs/389ds/scripts.html)
   - [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) - Web-based LDAP browser to manage your LDAP server
+  - [PHPLdapTools](http://www.phpldaptools.com/)
   - [Lex](http://www.ldapexplorer.com/) - The LDAP Explorer - Windows only
 
 ## LDAP + Pentesting
@@ -72,8 +73,6 @@ My objective is to make this a useful resource for people with varying levels of
 
 #### Using NSE Scripts
   - [Searching LDAP using Nmap's ldap-search.nse script](https://fadedlab.wordpress.com/2017/07/25/searching-ldap-using-nmaps-ldap-search-nse/) - Several practical applications
-
-
 
 ## LDIF 
 LDIF is the LDAP Data Interchange Format. LDIF files are flat text files. 
