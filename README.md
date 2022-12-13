@@ -91,7 +91,7 @@ These are some of the best available glossaries and other resources for learning
 
   - [Glossary of LDAP and Directory Terminology](https://ldapwiki.com/wiki/Glossary%20Of%20LDAP%20And%20Directory%20Terminology)
   - [LDAP - Object Classes and Attributes](https://www.zytrax.com/books/ldap/ape/)
-
+  - [LDAP attributes and associated fields](https://docs.bmc.com/docs/fpsc121/ldap-attributes-and-associated-fields-495323340.html)
 
 ## Other Awesome Lists
   - [LDAP section of awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin#ldap)
