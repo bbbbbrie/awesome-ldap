@@ -123,6 +123,8 @@ These are some of the best available glossaries and other resources for learning
 
 ### Guides
 
+  - [Use LDAP search rules to synchronize data](https://support.google.com/cloudidentity/answer/6126589)
+
 #### Notes from the Field
 
   - [Querying AD with ldapsearch: Linux Authenticating against Active Directory](https://www.cs.rug.nl/~jurjen/ApprenticesNotes/ldapsearch_ad_query.html)
