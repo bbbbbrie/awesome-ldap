@@ -24,14 +24,17 @@ icanhazpdf:
 
 # Use pandoc to convert the README to HTML.
 pages:
-  image: "pandoc/core"
+  allow_failure: false
+  image: 
+    name: "pandoc/core"
+    entrypoint: [""]
   stage: deploy
   needs: ["icanhazpdf","markmedown"]
   # CSS: https://benjam.info/panam/styling.css
   script:
   - mkdir -p public
   - cp web/styling.css public/
-  - pandoc --css=styling.css -s -f markdown+smart --toc --metadata pagetitle="awesome ldap | GitLab.com/brie" --to=html5 README.md  -o public/index.html
+  - pandoc --css=styling.css -s -f markdown --toc --metadata pagetitle="awesome ldap | GitLab.com/brie" --to=html5 README.md  -o public/index.html
   artifacts:
     paths:
     - public
