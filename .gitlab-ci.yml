@@ -25,6 +25,9 @@ icanhazpdf:
 # Use pandoc to convert the README to HTML.
 pages:
   allow_failure: false
+  environment:
+    name: production
+    url: https://ldap.brie.dev
   image: 
     name: "pandoc/core"
     entrypoint: [""]
