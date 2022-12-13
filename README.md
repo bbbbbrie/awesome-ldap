@@ -15,6 +15,12 @@ My objective is to make this a useful resource for people with varying levels of
   - [389 Directory](https://directory.fedoraproject.org/)
   - [ReOpenLDAP](https://github.com/erthink/ReOpenLDAP) - A production-ready replacement for OpenLDAP
 
+## ldapsearch
+
+> The best write-ups and references for our friend: `ldapsearch`!
+
+  - [ldapsearch reference](https://malicious.link/post/2022/ldapsearch-reference/)
+
 ## Self-Hosted LDAP
 ### Suites
   - [FreeIPA](https://www.freeipa.org/page/Main_Page) - An integrated security information management solution that includes 389 Directory Server
@@ -109,4 +115,18 @@ These are some of the best available glossaries and other resources for learning
 
 ## Troubleshooting
 
-  - https://docs.jamf.com/technical-articles/LDAP_Server_Connections_in_Jamf_Pro.html?hl=ldap
+### LDAP Servers
+
+  - [Online LDAP Test Server](https://www.forumsys.com/2022/05/10/online-ldap-test-server/) - Creds for a read-only bind DN. 
+
+### Tools
+
+### Guides
+
+#### Notes from the Field
+
+  - [Querying AD with ldapsearch: Linux Authenticating against Active Directory](https://www.cs.rug.nl/~jurjen/ApprenticesNotes/ldapsearch_ad_query.html)
+
+#### Vendor Documentation
+
+  - [LDAP Server Connections in JAMF Pro](https://docs.jamf.com/technical-articles/LDAP_Server_Connections_in_Jamf_Pro.html?hl=ldap)
