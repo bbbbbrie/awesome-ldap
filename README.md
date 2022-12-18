@@ -112,7 +112,12 @@ These are some of the best available glossaries and other resources for learning
   - [/r/ldap](https://reddit.com/r/ldap) - The LDAP subreddit
 
 ## Troubleshooting
+
+  - JumpCloud has some [LDAP Authentication Examples](https://github.com/TheJumpCloud/support/tree/master/scripts/authentication_examples/ldap) in a variety of languages
+
 ### LDAP Servers
+
+> LDAP servers available for testing...
 
   - [Online LDAP Test Server](https://www.forumsys.com/2022/05/10/online-ldap-test-server/) - Creds for a read-only bind DN. 
   - [Public LDAP Servers](https://ldapwiki.com/wiki/Public%20LDAP%20Servers)
