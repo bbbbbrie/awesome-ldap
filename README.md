@@ -133,6 +133,10 @@ These are some of the best available glossaries and other resources for learning
   - [Interacting with an LDAP server using Ruby](https://www.tutorialspoint.com/ruby/ruby_ldap.htm) - This is a little dated but would be great in conjunction with the containers noted above.
   - [Full Ruby LDAP docs](http://ruby-ldap.sourceforge.net/rdoc/)
 
+## Courses
+
+  - [JumpCloud University](https://university.jumpcloud.com/collections)
+
 ### Notes from the Field
 
   - [Querying AD with ldapsearch: Linux Authenticating against Active Directory](https://www.cs.rug.nl/~jurjen/ApprenticesNotes/ldapsearch_ad_query.html)
